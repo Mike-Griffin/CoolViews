@@ -16,6 +16,12 @@ struct ContentView: View {
                 } label: {
                     Text("Side scroll")
                 }
+                
+                NavigationLink {
+                    BreakdownViewScreen()
+                } label: {
+                    Text("UI Practice")
+                }
 
             }
         }
